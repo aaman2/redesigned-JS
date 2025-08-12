@@ -1,0 +1,11 @@
+Question:
+A pizza shop sizes their pizzas based on the number of people sharing it:
+
+Small pizza: good for up to 2 people.
+
+Medium pizza: good for 3–5 people.
+
+Large pizza: good for more than 5 people.
+
+Write a JavaScript function tellsize(num) that takes the number of people as input and prints which pizza size should be ordered.
+If the input is not a positive number, print "Please enter a valid positive number".
