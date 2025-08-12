@@ -1,0 +1,20 @@
+A school assigns grades to students based on their exam scores as follows:
+
+Score Range  | Grade
+-------------|-------
+90 and above | A
+80–89        | B
+70–79        | C
+50–69        | D
+35–49        | E
+Below 35     | F
+
+Write a JavaScript function grade(score) that:
+1. Takes a student's score as input.
+2. Determines the grade based on the above table.
+3. Prints "You have passed with <grade> grade. Score is <score>" if the student’s grade is not "F".
+4. Prints "You have failed with F grade. Score is <score>" if the student’s grade is "F".
+
+Example:
+grade(92); // Output: You have passed with A grade. Score is 92
+grade(20); // Output: You have failed with F grade. Score is 20
